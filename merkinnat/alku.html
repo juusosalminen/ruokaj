@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<meta charset="UTF-8" />
+<link href="tyyli.css" rel="StyleSheet" type="text/css" />
+<title>Tuotteiden alku</title>
+</head>
+<body>
+<form action="tuotteet.php" method="post">
+<label for="maara">Kuinka monta tuotetta haluat lisätä?</label>
+<input id="maara" name="maara" type="number" min="1" step="1"/>
+<input type="submit" name="laheta"
+ value="Lähetä tiedot" />
+<input type="submit" name="laheta-auto"
+ value="Automaatti" formaction="autotuotteet.php" />
+</form>
+</body>
+</html>

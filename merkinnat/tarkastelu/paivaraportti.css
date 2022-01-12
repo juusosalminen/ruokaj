@@ -1,0 +1,77 @@
+body {
+    background-color: rgba(104, 79, 55, 0.37);
+}
+
+.ravinteet {
+    float : left;
+}
+
+.kulutus {
+    float: left;
+}
+
+table {
+    border: thin black solid;
+    background-color: khaki;
+    margin : 0.2em;
+}
+
+th {
+    border-bottom: thin solid black;
+    border-right: thin solid black;
+}
+
+td {
+    padding : 0.2em;
+}
+
+.tumma {
+    background-color: darkgrey;
+}
+
+.vaalea {
+    background-color: darkkhaki;
+} 
+
+nav li {
+	display:inline;
+	padding: 0.5em;
+}
+
+nav ul {
+	padding: 0.1em;
+}
+
+nav {
+	background-color : darkkhaki;
+	margin-bottom : 0.5em;
+	width: fit-content;
+	border : solid thin black;
+}
+
+nav li a:visited {
+	color: rgb(104, 64, 11);
+	text-decoration: none;
+	
+}
+
+nav li a:hover {
+	background-color:honeydew;
+}
+nav li a{
+	padding: 0.3em;
+	text-decoration: none;
+	background-color: rgb(233, 247, 185);
+	border: thin solid black;
+}
+
+
+.link-button {
+	background: none;
+	border: none;
+	color: blue;
+	text-decoration: underline;
+	cursor: pointer;
+	font-size: 1em;
+	font-family: serif;
+  }

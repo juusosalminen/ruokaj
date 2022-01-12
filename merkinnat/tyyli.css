@@ -1,0 +1,73 @@
+.table20, .table40, .table60 {
+	float:left;
+}
+
+nav li {
+	display:inline;
+	padding: 0.5em;
+}
+
+nav ul {
+	padding: 0.1em;
+}
+
+nav {
+	background-color : darkkhaki;
+	margin-bottom : 0.5em;
+	width: fit-content;
+	border : solid thin black;
+}
+
+nav li a:visited {
+	color: rgb(104, 64, 11);
+	text-decoration: none;
+	
+}
+
+nav li a:hover {
+	background-color:honeydew;
+}
+nav li a{
+	padding: 0.3em;
+	text-decoration: none;
+	background-color: rgb(233, 247, 185);
+	border: thin solid black;
+}
+
+.keskitetty {
+	text-align : center;
+}
+
+.oikea {
+	position: fixed;
+	top: 3em;
+	right: 15em;
+	border: thin solid black;
+	padding: 0.2em;
+}
+
+.ravinteet {
+	position: fixed;
+	top: 20em;
+	right: 15em;
+	border: thin solid black;
+	padding: 0.2em;
+}
+
+.tapahtuneet {
+	list-style-type: none;
+	padding-left: 0.5em;
+}
+
+.paivan_ravinneosuudet {
+	float : left;
+}
+
+svg {
+	float : left;
+}
+
+.napit {
+	display: inline;
+}
+
